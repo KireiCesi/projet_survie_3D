@@ -354,8 +354,10 @@
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemData.cs"
 "Assets/Scripts/PickupBehaviour.cs"
-"Assets/Scripts/PickupBehaviour1.cs"
 "Assets/Scripts/PickupItem.cs"
+"Assets/Scripts/Slot.cs"
+"Assets/Scripts/Tooltip.cs"
+"Assets/Scripts/TooltipSystem.cs"
 -langversion:9.0
 
 /deterministic

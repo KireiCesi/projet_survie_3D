@@ -58,11 +58,13 @@
   <ItemGroup>
     <Compile Include="Assets\Character\Scripts\BasicBehaviour.cs" />
     <Compile Include="Assets\Character\Scripts\MoveBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Slot.cs" />
     <Compile Include="Assets\Scripts\ItemData.cs" />
-    <Compile Include="Assets\Scripts\PickupBehaviour1.cs" />
     <Compile Include="Assets\Character\Scripts\AimBehaviourBasic.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Character\Scripts\FlyBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TooltipSystem.cs" />
+    <Compile Include="Assets\Scripts\Tooltip.cs" />
     <Compile Include="Assets\Scripts\PickupItem.cs" />
     <Compile Include="Assets\Scripts\PickupBehaviour.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
