@@ -15,6 +15,6 @@ MonoBehaviour:
   name: Iron Gloves
   description: A strong pair of gloves
   visual: {fileID: 21300000, guid: 3f3f612e2e18b4742ba62c1d294abdc6, type: 3}
-  prefab: {fileID: 1949520877074207486, guid: 9de04d56d56adfe43a5b1a0bafbdcf5f, type: 3}
+  prefab: {fileID: 434620031711225366, guid: 3a4970157a8935b4098dc75037dadfb3, type: 3}
   itemType: 1
   equipementType: 2
