@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\tinti\\projet_survie_3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tooltip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,16 +31,16 @@
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\pickupbehaviour1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupbehaviour1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\character\\scripts\\movebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\scripts\\movebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\tooltiptrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\tooltiptrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TooltipTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PickupBehaviour1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PickupBehaviour1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Slot.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Slot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Slot.cs",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Slot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T15:33:51.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T15:33:51.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "TooltipTrigger.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TooltipTrigger.cs",
@@ -79,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TooltipSystem.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TooltipSystem.cs",
@@ -91,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Tooltip.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Tooltip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tooltip.cs",
@@ -115,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PickupBehaviour1.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PickupBehaviour1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PickupBehaviour1.cs",
@@ -127,13 +126,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowBwAAAAJAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T20:40:56.552Z",
               "EditorCaption": ""
@@ -151,19 +150,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemData.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
               "RelativeToolTip": "Assets\\Scripts\\ItemData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:02:38.354Z"
+              "WhenOpened": "2024-12-01T14:02:38.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "MoveBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Character\\Scripts\\MoveBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Character\\Scripts\\MoveBehaviour.cs",
