@@ -3,48 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tinti\\projet_survie_3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\equipementlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\equipementlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\tooltipsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tooltipsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\tooltip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tooltip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\character\\scripts\\movebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\scripts\\movebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TooltipTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PickupBehaviour1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PickupBehaviour1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,93 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EquipementLibrary.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\EquipementLibrary.cs",
-              "RelativeDocumentMoniker": "Assets\\EquipementLibrary.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\EquipementLibrary.cs",
-              "RelativeToolTip": "Assets\\EquipementLibrary.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:57:14.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Slot.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Slot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Slot.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Slot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Slot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T15:33:51.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TooltipTrigger.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TooltipTrigger.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipTrigger.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TooltipTrigger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T14:43:00.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TooltipSystem.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TooltipSystem.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\TooltipSystem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TooltipSystem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T14:39:19.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tooltip.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Tooltip.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Tooltip.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Tooltip.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Tooltip.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T14:28:44.383Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PickupItem.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PickupItem.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PickupItem.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PickupItem.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PickupItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T11:25:43.823Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PickupBehaviour1.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PickupBehaviour1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PickupBehaviour1.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PickupBehaviour1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PickupBehaviour1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T11:10:49.245Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -149,46 +24,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAwEkAAAAfAAAA",
+              "ViewState": "AQIAABMBAAAAAAAAAADwvykBAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T20:40:56.552Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Item.cs",
-              "RelativeDocumentMoniker": "Assets\\Item.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Item.cs",
-              "RelativeToolTip": "Assets\\Item.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:18:44.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ItemData.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemData.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:02:38.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MoveBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Character\\Scripts\\MoveBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Character\\Scripts\\MoveBehaviour.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Character\\Scripts\\MoveBehaviour.cs",
-              "RelativeToolTip": "Assets\\Character\\Scripts\\MoveBehaviour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:46:15.555Z"
             }
           ]
         }

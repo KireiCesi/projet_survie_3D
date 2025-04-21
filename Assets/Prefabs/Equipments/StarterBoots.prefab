@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2380089035549248094
+--- !u!1 &7078372128824265727
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3838062094240481688}
-  - component: {fileID: 5233641387841997995}
-  - component: {fileID: 5416267214817609198}
-  - component: {fileID: 626999826673376299}
-  - component: {fileID: 3578746008282589537}
-  - component: {fileID: 2295639191085869885}
+  - component: {fileID: 1141747130982325690}
+  - component: {fileID: 8678968453309257212}
+  - component: {fileID: 6177252741627047950}
+  - component: {fileID: 863957202284852068}
+  - component: {fileID: 6838455319576836126}
+  - component: {fileID: 7162471441954400357}
   m_Layer: 6
   m_Name: StarterBoots
   m_TagString: Item
@@ -21,36 +21,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3838062094240481688
+--- !u!4 &1141747130982325690
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2380089035549248094}
+  m_GameObject: {fileID: 7078372128824265727}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.41, y: 0.741, z: 0.60659707}
+  m_LocalPosition: {x: 5.63, y: 0.785, z: 0.076}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5233641387841997995
+--- !u!33 &8678968453309257212
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2380089035549248094}
+  m_GameObject: {fileID: 7078372128824265727}
   m_Mesh: {fileID: 7953725260033477193, guid: ecec9226167ad6a449f4f1b112b740b3, type: 3}
---- !u!23 &5416267214817609198
+--- !u!23 &6177252741627047950
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2380089035549248094}
+  m_GameObject: {fileID: 7078372128824265727}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,13 +86,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &626999826673376299
+--- !u!54 &863957202284852068
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2380089035549248094}
+  m_GameObject: {fileID: 7078372128824265727}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -102,29 +102,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3578746008282589537
+--- !u!65 &6838455319576836126
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2380089035549248094}
+  m_GameObject: {fileID: 7078372128824265727}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.44634318, y: 0.12252009, z: 0.3}
-  m_Center: {x: 0.014011502, y: 0.054489613, z: 0}
---- !u!114 &2295639191085869885
+  m_Size: {x: 0.5320916, y: 0.14780927, z: 0.2999999}
+  m_Center: {x: -0.0019023418, y: 0.057071507, z: -0.000000059604645}
+--- !u!114 &7162471441954400357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2380089035549248094}
+  m_GameObject: {fileID: 7078372128824265727}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eab301ccd55b47a73707f02f3ddb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: c43b473ee790f024881d44c721d0ea14, type: 2}
+  itemData: {fileID: 11400000, guid: 14e208ed54a31a04ab291c67bf654fad, type: 2}

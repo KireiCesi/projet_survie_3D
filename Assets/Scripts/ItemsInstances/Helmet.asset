@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Helmet
   m_EditorClassIdentifier: 
   name: Helmet
-  description: A simple iron helmet.
+  description: A simple helmet made of iron.
   visual: {fileID: 21300000, guid: 358541a3db89a6f45956a5d4726d7312, type: 3}
-  prefab: {fileID: 2798066719015151587, guid: 3d6d05853ac094e40b8bd4ce326273df, type: 3}
+  prefab: {fileID: 2604410954874609826, guid: cf0a433cfa73aee409009ebf0afb35c9, type: 3}
   itemType: 1
