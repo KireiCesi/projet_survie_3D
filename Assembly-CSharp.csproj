@@ -68,8 +68,9 @@
     <Compile Include="Assets\Scripts\ItemActionsSystem.cs" />
     <Compile Include="Assets\Scripts\TooltipSystem.cs" />
     <Compile Include="Assets\Scripts\Tooltip.cs" />
-    <Compile Include="Assets\Scripts\PickupItem.cs" />
-    <Compile Include="Assets\Scripts\PickupBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Interact.cs" />
+    <Compile Include="Assets\Scripts\InteractBehaviour.cs" />
+    <Compile Include="Assets\Harvestable.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Character\Scripts\ThirdPersonOrbitCamBasic.cs" />
   </ItemGroup>
