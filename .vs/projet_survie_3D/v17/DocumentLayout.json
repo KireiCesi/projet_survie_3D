@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\tinti\\projet_survie_3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractBehaviour.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\InteractBehaviour.cs",
               "RelativeToolTip": "Assets\\Scripts\\InteractBehaviour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAyAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwD0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T17:22:01.99Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Interact.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T17:23:57.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T17:23:57.178Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Assets\\Harvestable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T17:06:23.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T17:06:23.068Z"
             },
             {
               "$type": "Document",

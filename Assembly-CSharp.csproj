@@ -70,7 +70,7 @@
     <Compile Include="Assets\Scripts\Tooltip.cs" />
     <Compile Include="Assets\Scripts\Interact.cs" />
     <Compile Include="Assets\Scripts\InteractBehaviour.cs" />
-    <Compile Include="Assets\Harvestable.cs" />
+    <Compile Include="Assets\Scripts\Harvestable.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Character\Scripts\ThirdPersonOrbitCamBasic.cs" />
   </ItemGroup>
