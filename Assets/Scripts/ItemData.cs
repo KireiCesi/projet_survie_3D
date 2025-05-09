@@ -9,6 +9,8 @@ public class ItemData : ScriptableObject
     public string description;
     public Sprite visual;
     public GameObject prefab;
+    public bool stackable;
+    public int maxStack;
 
     public ItemType itemType;
     public EquipmentType equipmentType;
