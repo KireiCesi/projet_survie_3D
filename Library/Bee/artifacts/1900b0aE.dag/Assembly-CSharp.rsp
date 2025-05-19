@@ -350,7 +350,6 @@
 "Assets/Character/Scripts/FlyBehaviour.cs"
 "Assets/Character/Scripts/MoveBehaviour.cs"
 "Assets/Character/Scripts/ThirdPersonOrbitCamBasic.cs"
-"Assets/PlayerStats.cs"
 "Assets/Scripts/CraftingSystem.cs"
 "Assets/Scripts/ElementRequired.cs"
 "Assets/Scripts/Equipment.cs"
@@ -362,12 +361,13 @@
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/ItemActionsSystem.cs"
 "Assets/Scripts/ItemData.cs"
+"Assets/Scripts/PlayerStats.cs"
 "Assets/Scripts/Recipe.cs"
 "Assets/Scripts/RecipeData.cs"
 "Assets/Scripts/Slot.cs"
 "Assets/Scripts/Tooltip.cs"
 "Assets/Scripts/TooltipSystem.cs"
-"Assets/UIManager.cs"
+"Assets/Scripts/UIManager.cs"
 -langversion:9.0
 
 /deterministic

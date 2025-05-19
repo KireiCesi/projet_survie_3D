@@ -4,9 +4,10 @@ using UnityEngine.UI;
 public class PlayerStats : MonoBehaviour
 {
     [Header("Health")]
+
     [SerializeField]
     private float maxHealth = 100f;
-    private float currentHealth;
+    public float currentHealth;
 
     [SerializeField]
     private Image healthBarFill;
@@ -17,7 +18,7 @@ public class PlayerStats : MonoBehaviour
     [Header("Hunger")]
     [SerializeField]
     private float maxHunger = 100f;
-    private float currentHunger;
+    public float currentHunger;
 
     [SerializeField]
     private Image hungerBarFill;
@@ -28,14 +29,13 @@ public class PlayerStats : MonoBehaviour
     [Header("Thirst")]
     [SerializeField]
     private float maxThirst = 100f;
-    private float currentThirst;
+    public float currentThirst;
 
     [SerializeField]
     private Image thirstBarFill;
 
     [SerializeField]
     private float thirstDecreaseRate;
-
 
     void Awake()
     {
@@ -46,15 +46,13 @@ public class PlayerStats : MonoBehaviour
 
     void Update()
     {
+        UpdateHungerAndThirstBarsFill();
 
-        UpdateHungerAndThirstBarFill();
-
-       if(Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             TakeDamage(15f);
         }
     }
-
 
     void TakeDamage(float damage, bool overTime = false)
     {
@@ -67,9 +65,35 @@ public class PlayerStats : MonoBehaviour
             currentHealth -= damage;
         }
 
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
-            Debug.Log("Player died!");
+            Debug.Log("Player died !");
+        }
+
+        UpdateHealthBarFill();
+    }
+
+    public void ConsumeItem(float health, float hunger, float thirst)
+    {
+        currentHealth += health;
+
+        if (currentHealth > maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
+        currentHunger += hunger;
+
+        if (currentHunger > maxHunger)
+        {
+            currentHunger = maxHunger;
+        }
+
+        currentThirst += thirst;
+
+        if (currentThirst > maxThirst)
+        {
+            currentThirst = maxThirst;
         }
 
         UpdateHealthBarFill();
@@ -80,25 +104,24 @@ public class PlayerStats : MonoBehaviour
         healthBarFill.fillAmount = currentHealth / maxHealth;
     }
 
-    void UpdateHungerAndThirstBarFill()
+    void UpdateHungerAndThirstBarsFill()
     {
-        // Diminue la faim et la soif au fil du temps
+        // Diminue la faim / soif au fil du temps
         currentHunger -= hungerDecreaseRate * Time.deltaTime;
         currentThirst -= thirstDecreaseRate * Time.deltaTime;
 
         // On empêche de passer dans le négatif
-        currentHunger = currentHunger < 0 ? 0 : currentHunger / maxHunger;
-        currentThirst = currentThirst < 0 ? 0 : currentThirst / maxThirst;
-
+        currentHunger = currentHunger < 0 ? 0 : currentHunger;
+        currentThirst = currentThirst < 0 ? 0 : currentThirst;
 
         // Mettre à jour les visuels
         hungerBarFill.fillAmount = currentHunger / maxHunger;
-        thirstBarFill.fillAmount = currentThirst / maxHunger;
+        thirstBarFill.fillAmount = currentThirst / maxThirst;
 
-        // Si la barre de faim et/ou soif à zéro, le joueur prend des dégats (x2 si les deux barres sont à zéro)
+        // Si la barre de faim et/ou soif est à zéro -> Le joueur prend des dégâts (x2 si les deux barres sont à zéro)
         if (currentHunger <= 0 || currentThirst <= 0)
         {
-            TakeDamage((currentHunger <= 0 && currentHealth <= 0 ? healthDecreaseRateForHungerAndThirst * 2 : healthDecreaseRateForHungerAndThirst), true);
+            TakeDamage((currentHunger <= 0 && currentThirst <= 0 ? healthDecreaseRateForHungerAndThirst * 2 : healthDecreaseRateForHungerAndThirst), true);
         }
     }
 }

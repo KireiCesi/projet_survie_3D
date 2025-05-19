@@ -1,103 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tinti\\projet_survie_3D\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\harvestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\harvestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\interact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ItemData.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemData.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ItemData.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwB4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T21:54:46.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Harvestable.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Harvestable.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Harvestable.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Harvestable.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Harvestable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T15:19:55.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InteractBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\InteractBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\InteractBehaviour.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\InteractBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\InteractBehaviour.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAwwFYAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T17:22:01.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Interact.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Interact.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Interact.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Interact.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Interact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T17:23:57.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwCcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T20:40:56.552Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

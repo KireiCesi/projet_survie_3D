@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Equipment.cs" />
     <Compile Include="Assets\Character\Scripts\BasicBehaviour.cs" />
     <Compile Include="Assets\Scripts\EquipmentLibrary.cs" />
@@ -77,8 +78,7 @@
     <Compile Include="Assets\Scripts\Harvestable.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Character\Scripts\ThirdPersonOrbitCamBasic.cs" />
-    <Compile Include="Assets\UIManager.cs" />
-    <Compile Include="Assets\PlayerStats.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
