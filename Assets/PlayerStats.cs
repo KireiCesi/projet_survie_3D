@@ -1,0 +1,104 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerStats : MonoBehaviour
+{
+    [Header("Health")]
+    [SerializeField]
+    private float maxHealth = 100f;
+    private float currentHealth;
+
+    [SerializeField]
+    private Image healthBarFill;
+
+    [SerializeField]
+    private float healthDecreaseRateForHungerAndThirst;
+
+    [Header("Hunger")]
+    [SerializeField]
+    private float maxHunger = 100f;
+    private float currentHunger;
+
+    [SerializeField]
+    private Image hungerBarFill;
+
+    [SerializeField]
+    private float hungerDecreaseRate;
+
+    [Header("Thirst")]
+    [SerializeField]
+    private float maxThirst = 100f;
+    private float currentThirst;
+
+    [SerializeField]
+    private Image thirstBarFill;
+
+    [SerializeField]
+    private float thirstDecreaseRate;
+
+
+    void Awake()
+    {
+        currentHealth = maxHealth;
+        currentHunger = maxHunger;
+        currentThirst = maxThirst;
+    }
+
+    void Update()
+    {
+
+        UpdateHungerAndThirstBarFill();
+
+       if(Input.GetKeyDown(KeyCode.K))
+        {
+            TakeDamage(15f);
+        }
+    }
+
+
+    void TakeDamage(float damage, bool overTime = false)
+    {
+        if (overTime)
+        {
+            currentHealth -= damage * Time.deltaTime;
+        }
+        else
+        {
+            currentHealth -= damage;
+        }
+
+        if(currentHealth <= 0)
+        {
+            Debug.Log("Player died!");
+        }
+
+        UpdateHealthBarFill();
+    }
+
+    void UpdateHealthBarFill()
+    {
+        healthBarFill.fillAmount = currentHealth / maxHealth;
+    }
+
+    void UpdateHungerAndThirstBarFill()
+    {
+        // Diminue la faim et la soif au fil du temps
+        currentHunger -= hungerDecreaseRate * Time.deltaTime;
+        currentThirst -= thirstDecreaseRate * Time.deltaTime;
+
+        // On empêche de passer dans le négatif
+        currentHunger = currentHunger < 0 ? 0 : currentHunger / maxHunger;
+        currentThirst = currentThirst < 0 ? 0 : currentThirst / maxThirst;
+
+
+        // Mettre à jour les visuels
+        hungerBarFill.fillAmount = currentHunger / maxHunger;
+        thirstBarFill.fillAmount = currentThirst / maxHunger;
+
+        // Si la barre de faim et/ou soif à zéro, le joueur prend des dégats (x2 si les deux barres sont à zéro)
+        if (currentHunger <= 0 || currentThirst <= 0)
+        {
+            TakeDamage((currentHunger <= 0 && currentHealth <= 0 ? healthDecreaseRateForHungerAndThirst * 2 : healthDecreaseRateForHungerAndThirst), true);
+        }
+    }
+}
