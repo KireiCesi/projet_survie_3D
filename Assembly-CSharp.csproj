@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.14</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2021.3.0f1</UnityVersion>
@@ -56,16 +56,17 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\Equipment.cs" />
     <Compile Include="Assets\Character\Scripts\BasicBehaviour.cs" />
     <Compile Include="Assets\Scripts\EquipmentLibrary.cs" />
     <Compile Include="Assets\Character\Scripts\MoveBehaviour.cs" />
     <Compile Include="Assets\Scripts\ElementRequired.cs" />
     <Compile Include="Assets\Scripts\Slot.cs" />
+    <Compile Include="Assets\Scripts\PlayerStats.cs" />
     <Compile Include="Assets\Scripts\ItemData.cs" />
     <Compile Include="Assets\Character\Scripts\AimBehaviourBasic.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\EnemyAI.cs" />
     <Compile Include="Assets\Character\Scripts\FlyBehaviour.cs" />
     <Compile Include="Assets\Scripts\ItemActionsSystem.cs" />
     <Compile Include="Assets\Scripts\RecipeData.cs" />
@@ -75,11 +76,11 @@
     <Compile Include="Assets\Scripts\CraftingSystem.cs" />
     <Compile Include="Assets\Scripts\InteractBehaviour.cs" />
     <Compile Include="Assets\Scripts\Recipe.cs" />
+    <Compile Include="Assets\AttackBehaviour.cs" />
     <Compile Include="Assets\Scripts\Harvestable.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Character\Scripts\ThirdPersonOrbitCamBasic.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\EnemyAI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -326,7 +327,7 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>

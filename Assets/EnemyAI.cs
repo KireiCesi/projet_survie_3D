@@ -8,16 +8,13 @@ public class EnemyAI : MonoBehaviour
     [Header("References")]
 
     [SerializeField]
-    private Transform player;
-
-    [SerializeField]
-    private PlayerStats playerStats;
-
-    [SerializeField]
     private NavMeshAgent agent;
 
     [SerializeField]
     private Animator animator;
+
+    private Transform player;
+    private PlayerStats playerStats;
 
     [Header("Stats")]
 
@@ -42,7 +39,6 @@ public class EnemyAI : MonoBehaviour
     [SerializeField]
     private float rotationSpeed;
 
-
     [Header("Wandering parameters")]
 
     [SerializeField]
@@ -60,11 +56,17 @@ public class EnemyAI : MonoBehaviour
     private bool hasDestination;
     private bool isAttacking;
 
+    private void Awake()
+    {
+        Transform playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+
+        player = playerTransform;
+        playerStats = playerTransform.GetComponent<PlayerStats>();
+    }
 
     void Update()
     {
-        if (Vector3.Distance(player.position, transform.position) < detectionRadius)
-
+        if(Vector3.Distance(player.position, transform.position) < detectionRadius && !playerStats.isDead)
         {
             agent.speed = chaseSpeed;
 
@@ -75,19 +77,20 @@ public class EnemyAI : MonoBehaviour
             {
                 if (Vector3.Distance(player.position, transform.position) < attackRadius)
                 {
-                    StartCoroutine(attackPlayer());
+                    StartCoroutine(AttackPlayer());
                 }
                 else
                 {
                     agent.SetDestination(player.position);
                 }
             }
-
+            
         }
         else
         {
             agent.speed = walkSpeed;
-            if (agent.remainingDistance < 0.75f && !hasDestination)
+
+            if(agent.remainingDistance < 0.75f && !hasDestination)
             {
                 StartCoroutine(GetNewDestination());
             }
@@ -97,22 +100,22 @@ public class EnemyAI : MonoBehaviour
     }
 
     IEnumerator GetNewDestination()
-    { 
+    {
         hasDestination = true;
         yield return new WaitForSeconds(Random.Range(wanderingWaitTimeMin, wanderingWaitTimeMax));
 
         Vector3 nextDestination = transform.position;
-        nextDestination += Random.Range (wanderingDistanceMin, wanderingDistanceMax) * new Vector3(Random.Range(-1f, 1), 0f, Random.Range(-1f, 1f)).normalized;
+        nextDestination += Random.Range(wanderingDistanceMin, wanderingDistanceMax) * new Vector3(Random.Range(-1f, 1), 0f, Random.Range(-1f, 1f)).normalized;
 
         NavMeshHit hit;
-        if(NavMesh.SamplePosition (nextDestination, out hit, wanderingDistanceMax, NavMesh.AllAreas))
+        if(NavMesh.SamplePosition(nextDestination, out hit, wanderingDistanceMax, NavMesh.AllAreas))
         {
-            agent.SetDestination (hit.position);
+            agent.SetDestination(hit.position);
         }
         hasDestination = false;
     }
 
-    IEnumerator attackPlayer()
+    IEnumerator AttackPlayer()
     {
         isAttacking = true;
         agent.isStopped = true;
@@ -128,7 +131,7 @@ public class EnemyAI : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.blue;
+        Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
 
         Gizmos.color = Color.red;

@@ -9,6 +9,9 @@ public class Equipment : MonoBehaviour
     [SerializeField]
     private ItemActionsSystem itemActionsSystem;
 
+    [SerializeField]
+    private PlayerStats playerStats;
+
     [Header("EQUIPMENT SYSTEM VARIABLES")]
 
     [SerializeField]
@@ -29,12 +32,17 @@ public class Equipment : MonoBehaviour
     [SerializeField]
     private Image feetSlotImage;
 
+    [SerializeField]
+    private Image weaponSlotImage;
+
     // Garde une trace des équipements actuels
     private ItemData equipedHeadItem;
     private ItemData equipedChestItem;
     private ItemData equipedHandsItem;
     private ItemData equipedLegsItem;
     private ItemData equipedFeetItem;
+    [HideInInspector]
+    public ItemData equipedWeaponItem;
 
     [SerializeField]
     private Button headSlotDesequipButton;
@@ -50,6 +58,9 @@ public class Equipment : MonoBehaviour
 
     [SerializeField]
     private Button feetSlotDesequipButton;
+
+    [SerializeField]
+    private Button weaponSlotDesequipButton;
 
     private void DisablePreviousEquipedEquipment(ItemData itemToDisable)
     {
@@ -70,6 +81,7 @@ public class Equipment : MonoBehaviour
             equipmentLibraryItem.itemPrefab.SetActive(false);
         }
 
+        playerStats.currentArmorPoints -= itemToDisable.armorPoints;
         Inventory.instance.AddItem(itemToDisable);
     }
 
@@ -115,6 +127,12 @@ public class Equipment : MonoBehaviour
                 equipedFeetItem = null;
                 feetSlotImage.sprite = Inventory.instance.emptySlotVisual;
                 break;
+
+            case EquipmentType.Weapon:
+                currentItem = equipedWeaponItem;
+                equipedWeaponItem = null;
+                weaponSlotImage.sprite = Inventory.instance.emptySlotVisual;
+                break;
         }
 
         EquipmentLibraryItem equipmentLibraryItem = equipmentLibrary.content.Where(elem => elem.itemData == currentItem).First();
@@ -129,9 +147,10 @@ public class Equipment : MonoBehaviour
             equipmentLibraryItem.itemPrefab.SetActive(false);
         }
 
+        playerStats.currentArmorPoints -= currentItem.armorPoints;
+
         Inventory.instance.AddItem(currentItem);
         Inventory.instance.RefreshContent();
-
     }
 
     public void UpdateEquipmentsDesequipButtons()
@@ -155,6 +174,10 @@ public class Equipment : MonoBehaviour
         feetSlotDesequipButton.onClick.RemoveAllListeners();
         feetSlotDesequipButton.onClick.AddListener(delegate { DesequipEquipment(EquipmentType.Feet); });
         feetSlotDesequipButton.gameObject.SetActive(equipedFeetItem);
+
+        weaponSlotDesequipButton.onClick.RemoveAllListeners();
+        weaponSlotDesequipButton.onClick.AddListener(delegate { DesequipEquipment(EquipmentType.Weapon); });
+        weaponSlotDesequipButton.gameObject.SetActive(equipedWeaponItem);
     }
 
     public void EquipAction()
@@ -196,6 +219,12 @@ public class Equipment : MonoBehaviour
                     feetSlotImage.sprite = itemActionsSystem.itemCurrentlySelected.visual;
                     equipedFeetItem = itemActionsSystem.itemCurrentlySelected;
                     break;
+
+                case EquipmentType.Weapon:
+                    DisablePreviousEquipedEquipment(equipedWeaponItem);
+                    weaponSlotImage.sprite = itemActionsSystem.itemCurrentlySelected.visual;
+                    equipedWeaponItem = itemActionsSystem.itemCurrentlySelected;
+                    break;
             }
 
             for (int i = 0; i < equipmentLibraryItem.elementsToDisable.Length; i++)
@@ -204,6 +233,8 @@ public class Equipment : MonoBehaviour
             }
 
             equipmentLibraryItem.itemPrefab.SetActive(true);
+
+            playerStats.currentArmorPoints += itemActionsSystem.itemCurrentlySelected.armorPoints;
 
             Inventory.instance.RemoveItem(itemActionsSystem.itemCurrentlySelected);
         }

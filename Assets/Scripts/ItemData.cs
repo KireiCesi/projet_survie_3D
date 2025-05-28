@@ -18,6 +18,9 @@ public class ItemData : ScriptableObject
     public float hungerEffect;
     public float thirstEffect;
 
+    [Header("Armor Stats")]
+    public float armorPoints;
+
     [Header("Types")]
     public ItemType itemType;
     public EquipmentType equipmentType;
@@ -36,5 +39,6 @@ public enum EquipmentType
     Chest,
     Hands,
     Legs,
-    Feet
+    Feet,
+    Weapon
 }

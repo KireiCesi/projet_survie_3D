@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 155335202167249870}
   - component: {fileID: 4494506371051402423}
   - component: {fileID: 8826968324551493811}
-  - component: {fileID: 3064427247181318245}
+  - component: {fileID: 256479230087824706}
   m_Layer: 6
   m_Name: Medical_Kit
   m_TagString: Item
@@ -115,7 +115,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3064427247181318245
+--- !u!114 &256479230087824706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,4 +127,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617eab301ccd55b47a73707f02f3ddb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemData: {fileID: 11400000, guid: e9b1f3259a4851448bd49d23504e9525, type: 2}
+  itemData: {fileID: 11400000, guid: 6a490be53c998e249b2ca5fa3405cd5d, type: 2}
