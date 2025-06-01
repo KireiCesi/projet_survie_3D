@@ -27,7 +27,7 @@ public class UIManager : MonoBehaviour
     {
         atLeastOnePanelOpened = UIPanels.Any((panel) => panel == panel.activeSelf);
 
-        if (atLeastOnePanelOpened)  
+        if (atLeastOnePanelOpened)
         {
             playerCameraScript.horizontalAimingSpeed = 0;
             playerCameraScript.verticalAimingSpeed = 0;

@@ -16,7 +16,6 @@ public class AttackBehaviour : MonoBehaviour
     private InteractBehaviour interactBehaviour;
 
     [Header("Configuration")]
-
     private bool isAttacking;
 
     [SerializeField]
@@ -30,9 +29,9 @@ public class AttackBehaviour : MonoBehaviour
 
     void Update()
     {
-        //Debug.DrawRay(transform.position + attackOffset, transform.forward * attackRange, Color.red);
+        // Debug.DrawRay(transform.position + attackOffset, transform.forward * attackRange, Color.red);
 
-        if(Input.GetMouseButtonDown(0) && CanAttack ())
+        if(Input.GetMouseButtonDown(0) && CanAttack())
         {
             isAttacking = true;
             SendAttack();
@@ -44,13 +43,13 @@ public class AttackBehaviour : MonoBehaviour
     {
         Debug.Log("Attack sent");
 
-        RaycastHit Hit;
+        RaycastHit hit;
 
-        if(Physics.Raycast(transform.position + attackOffset, transform.forward, out Hit, attackRange, layerMask))
+        if(Physics.Raycast(transform.position + attackOffset, transform.forward, out hit, attackRange, layerMask))
         {
-            if(Hit.transform.CompareTag("AI"))
-            {           
-                EnemyAI enemy = Hit.transform.GetComponent<EnemyAI>();
+            if(hit.transform.CompareTag("AI"))
+            {
+                EnemyAI enemy = hit.transform.GetComponent<EnemyAI>();
                 enemy.TakeDammage(equipmentSystem.equipedWeaponItem.attackPoints);
             }
         }
@@ -58,11 +57,11 @@ public class AttackBehaviour : MonoBehaviour
 
     bool CanAttack()
     {
-        /* Pour attaquer on doit : 
-         * Avoir une arme équipée
-         * Ne pas être en train d'attaquer
-         * Ne pas avoir l'inventaire ouvert
-         */
+        /* Pour attaquer on doit :
+        - Avoir une arme équipée
+        - Ne pas être en train d'attaquer
+        - Ne pas avoir l'inventaire ouvert
+        */
         return equipmentSystem.equipedWeaponItem != null && !isAttacking && !uiManager.atLeastOnePanelOpened && !interactBehaviour.isBusy;
     }
 

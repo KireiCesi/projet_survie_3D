@@ -1,11 +1,10 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
+using System.Linq;
 
 public class InteractBehaviour : MonoBehaviour
 {
-    [Header ("References")]
+    [Header("References")]
     [SerializeField]
     private MoveBehaviour playerMoveBehaviour;
 
@@ -121,7 +120,7 @@ public class InteractBehaviour : MonoBehaviour
 
     private void EnableToolGameObjectFromEnum(Tool toolType, bool enabled = true)
     {
-        EquipmentLibraryItem equipmentLibraryItem = equipmentLibrary.content.Where(elem => elem.itemData == equipmentSystem.equipedWeaponItem).First();
+        EquipmentLibraryItem equipmentLibraryItem = equipmentLibrary.content.Where(elem => elem.itemData == equipmentSystem.equipedWeaponItem).FirstOrDefault();
 
         if (equipmentLibraryItem != null)
         {

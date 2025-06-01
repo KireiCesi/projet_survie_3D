@@ -458,7 +458,7 @@ GameObject:
   - component: {fileID: 4923131711553074842}
   - component: {fileID: 4923131711553074821}
   - component: {fileID: 4923131711553074820}
-  - component: {fileID: 483167398}
+  - component: {fileID: 730786184}
   m_Layer: 8
   m_Name: Bear
   m_TagString: AI
@@ -518,7 +518,7 @@ MonoBehaviour:
   agent: {fileID: 4923131711553074820}
   animator: {fileID: 4923131711553074842}
   maxHealth: 100
-  currentHealth: 50
+  currentHealth: 0
   walkSpeed: 2
   chaseSpeed: 4
   detectionRadius: 10
@@ -552,7 +552,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!135 &483167398
+--- !u!135 &730786184
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -563,8 +563,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.2412804
-  m_Center: {x: -0.06287694, y: 0.6876043, z: 0.21014667}
+  m_Radius: 1.201151
+  m_Center: {x: 0.0000000016202772, y: 0.8448059, z: 0.115248084}
 --- !u!1 &3124648284904549848
 GameObject:
   m_ObjectHideFlags: 0

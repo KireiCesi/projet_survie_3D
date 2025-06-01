@@ -108,11 +108,11 @@ public class EnemyAI : MonoBehaviour
         animator.SetFloat("Speed", agent.velocity.magnitude);
     }
 
-    public void TakeDammage (float damages)
+    public void TakeDammage(float damages)
     {
         if (isDead)
-        { 
-            return; 
+        {
+            return;
         }
 
         currentHealth -= damages;
@@ -127,7 +127,6 @@ public class EnemyAI : MonoBehaviour
         {
             animator.SetTrigger("GetHit");
         }
-       
     }
 
     IEnumerator GetNewDestination()
@@ -157,10 +156,11 @@ public class EnemyAI : MonoBehaviour
 
         yield return new WaitForSeconds(attackDelay);
 
-        if (agent.enabled)
+        if(agent.enabled)
         {
             agent.isStopped = false;
         }
+        
         isAttacking = false;
     }
 

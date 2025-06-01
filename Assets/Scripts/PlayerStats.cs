@@ -91,7 +91,6 @@ public class PlayerStats : MonoBehaviour
 
         // Bloque le mouvement du joueur + mode inspection
         playerMovementScript.canMove = false;
- 
 
         // On bloque la diminution des barres de faim et soif
         hungerDecreaseRate = 0;
