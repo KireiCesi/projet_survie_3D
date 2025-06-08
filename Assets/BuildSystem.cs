@@ -1,11 +1,15 @@
 using UnityEngine;
 using System.Linq;
+using System.Collections.Generic;
 
 public class BuildSystem : MonoBehaviour
 {
     [Header("Configuration")]
     [SerializeField]
     private Grid grid;
+
+    [SerializeField]
+    private Transform placedStructuresParent;
 
     [SerializeField]
     private Structure[] structures;
@@ -38,6 +42,8 @@ public class BuildSystem : MonoBehaviour
     private Vector3 finalPosition;
     private bool systemEnabled = false;
 
+    public List<PlacedStructure> placedStructures;
+
     private void Awake()
     {
         currentStructure = structures.First();
@@ -46,7 +52,7 @@ public class BuildSystem : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(!systemEnabled)
+        if (!systemEnabled)
         {
             return;
         }
@@ -60,12 +66,13 @@ public class BuildSystem : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            if(currentStructure.structureType == StructureType.Stairs && systemEnabled)
+            if (currentStructure.structureType == StructureType.Stairs && systemEnabled)
             {
                 DisableSystem();
-            } else
+            }
+            else
             {
                 ChangeStructureType(GetStructureByType(StructureType.Stairs));
             }
@@ -95,12 +102,12 @@ public class BuildSystem : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown(KeyCode.Mouse0) && canBuild && inPlace && systemEnabled && HasAllRessources())
+        if (Input.GetKeyDown(KeyCode.Mouse0) && canBuild && inPlace && systemEnabled && HasAllRessources())
         {
             BuildStructure();
         }
 
-        if(Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             RotateStructure();
         }
@@ -108,7 +115,9 @@ public class BuildSystem : MonoBehaviour
 
     void BuildStructure()
     {
-        Instantiate(currentStructure.instantiatedPrefab, currentStructure.placementPrefab.transform.position, currentStructure.placementPrefab.transform.GetChild(0).transform.rotation);
+        Instantiate(currentStructure.instantiatedPrefab, currentStructure.placementPrefab.transform.position, currentStructure.placementPrefab.transform.GetChild(0).transform.rotation, placedStructuresParent);
+
+        placedStructures.Add(new PlacedStructure { prefab = currentStructure.instantiatedPrefab, positions = currentStructure.placementPrefab.transform.position, rotations = currentStructure.placementPrefab.transform.GetChild(0).transform.rotation.eulerAngles });
 
         audioSource.PlayOneShot(buildingSound);
 
@@ -142,10 +151,11 @@ public class BuildSystem : MonoBehaviour
         float Yangle = rotationRef.localEulerAngles.y;
         int roundedRotation = 0;
 
-        if(Yangle > -45 && Yangle <= 45)
+        if (Yangle > -45 && Yangle <= 45)
         {
             roundedRotation = 0;
-        }else if (Yangle > 45 && Yangle <= 135)
+        }
+        else if (Yangle > 45 && Yangle <= 135)
         {
             roundedRotation = 90;
         }
@@ -163,7 +173,7 @@ public class BuildSystem : MonoBehaviour
 
     void RotateStructure()
     {
-        if(currentStructure.structureType != StructureType.Wall)
+        if (currentStructure.structureType != StructureType.Wall)
         {
             currentStructure.placementPrefab.transform.GetChild(0).transform.Rotate(0, 90, 0);
         }
@@ -172,11 +182,12 @@ public class BuildSystem : MonoBehaviour
     void UpdatePlacementStructureMaterial()
     {
         MeshRenderer placementPrefabRenderer = currentStructure.placementPrefab.GetComponentInChildren<CollisionDetectionEdge>().meshRenderer;
-    
-        if(inPlace && canBuild && HasAllRessources())
+
+        if (inPlace && canBuild && HasAllRessources())
         {
             placementPrefabRenderer.material = blueMaterial;
-        } else
+        }
+        else
         {
             placementPrefabRenderer.material = redMaterial;
         }
@@ -186,7 +197,7 @@ public class BuildSystem : MonoBehaviour
     {
         inPlace = currentStructure.placementPrefab.transform.position == finalPosition;
 
-        if(!inPlace)
+        if (!inPlace)
         {
             SetPosition(finalPosition);
         }
@@ -197,10 +208,11 @@ public class BuildSystem : MonoBehaviour
         Transform placementPrefabTransform = currentStructure.placementPrefab.transform;
         Vector3 positionVelocity = Vector3.zero;
 
-        if(Vector3.Distance(placementPrefabTransform.position, targetPosition) > 10)
+        if (Vector3.Distance(placementPrefabTransform.position, targetPosition) > 10)
         {
             placementPrefabTransform.position = targetPosition;
-        } else
+        }
+        else
         {
             Vector3 newTargetPosition = Vector3.SmoothDamp(placementPrefabTransform.position, targetPosition, ref positionVelocity, 0, 15000);
             placementPrefabTransform.position = newTargetPosition;
@@ -243,6 +255,17 @@ public class BuildSystem : MonoBehaviour
             requiredElementGO.GetComponent<BuildingRequiredElement>().Setup(requiredRessource);
         }
     }
+
+    public void LoadStructures(PlacedStructure[] structuresToLoad)
+    {
+        foreach (PlacedStructure structure in structuresToLoad)
+        {
+            placedStructures.Add(structure);
+            GameObject newStructure = Instantiate(structure.prefab, placedStructuresParent);
+            newStructure.transform.position = structure.positions;
+            newStructure.transform.rotation = Quaternion.Euler(structure.rotations);
+        }
+    }
 }
 
 [System.Serializable]
@@ -259,4 +282,12 @@ public enum StructureType
     Stairs,
     Wall,
     Floor
+}
+
+[System.Serializable]
+public class PlacedStructure
+{
+    public GameObject prefab;
+    public Vector3 positions;
+    public Vector3 rotations;
 }
