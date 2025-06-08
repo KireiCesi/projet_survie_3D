@@ -356,6 +356,7 @@
 "Assets/CollisionDetectionEdge.cs"
 "Assets/EnemyAI.cs"
 "Assets/Grid.cs"
+"Assets/MainMenu.cs"
 "Assets/PointDetectionEdge.cs"
 "Assets/SaveSystem.cs"
 "Assets/Scripts/CraftingSystem.cs"
