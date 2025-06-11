@@ -57,7 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Equipment.cs" />
-    <Compile Include="Assets\CollisionDetectionEdge.cs" />
+    <Compile Include="Assets\Scripts\CollisionDetectionEdge.cs" />
     <Compile Include="Assets\Character\Scripts\BasicBehaviour.cs" />
     <Compile Include="Assets\Scripts\EquipmentLibrary.cs" />
     <Compile Include="Assets\Character\Scripts\MoveBehaviour.cs" />
@@ -67,27 +67,28 @@
     <Compile Include="Assets\Scripts\ItemData.cs" />
     <Compile Include="Assets\Character\Scripts\AimBehaviourBasic.cs" />
     <Compile Include="Assets\Scripts\Item.cs" />
-    <Compile Include="Assets\BuildSystem.cs" />
-    <Compile Include="Assets\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\BuildSystem.cs" />
+    <Compile Include="Assets\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Character\Scripts\FlyBehaviour.cs" />
     <Compile Include="Assets\Scripts\ItemActionsSystem.cs" />
-    <Compile Include="Assets\PointDetectionEdge.cs" />
+    <Compile Include="Assets\Scripts\PointDetectionEdge.cs" />
     <Compile Include="Assets\Scripts\RecipeData.cs" />
     <Compile Include="Assets\Scripts\TooltipSystem.cs" />
     <Compile Include="Assets\Scripts\Tooltip.cs" />
     <Compile Include="Assets\Scripts\Interact.cs" />
     <Compile Include="Assets\Scripts\CraftingSystem.cs" />
-    <Compile Include="Assets\BuildingRequiredElement.cs" />
+    <Compile Include="Assets\Scripts\BuildingRequiredElement.cs" />
+    <Compile Include="Assets\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\InteractBehaviour.cs" />
     <Compile Include="Assets\Scripts\Recipe.cs" />
-    <Compile Include="Assets\AttackBehaviour.cs" />
+    <Compile Include="Assets\Scripts\AttackBehaviour.cs" />
     <Compile Include="Assets\Scripts\Harvestable.cs" />
     <Compile Include="Assets\Scripts\Inventory.cs" />
     <Compile Include="Assets\Character\Scripts\ThirdPersonOrbitCamBasic.cs" />
-    <Compile Include="Assets\Grid.cs" />
+    <Compile Include="Assets\Scripts\Grid.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\SaveSystem.cs" />
-    <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
