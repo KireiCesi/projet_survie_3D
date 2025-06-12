@@ -66,7 +66,7 @@ public class MainMenu : MonoBehaviour
         qualitiesDropdown.RefreshShownValue();
 
 
-        // Initialisation des différenes résolutions
+        // Initialisation des différentes résolutions
         Resolution[] resolutions = Screen.resolutions;
         resolutionsDropdown.ClearOptions();
 
