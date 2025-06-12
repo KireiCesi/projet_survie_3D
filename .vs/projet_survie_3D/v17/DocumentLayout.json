@@ -1,70 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tinti\\projet_survie_3D\\",
+  "WorkspaceRootPath": "C:\\Ynovea-Folder\\projet_survie_3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Ynovea-Folder\\projet_survie_3D\\Library\\PackageCache\\com.unity.visualscripting@1.7.8\\Runtime\\VisualScripting.Flow\\Framework\\Events\\GameObjectEventUnit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.visualscripting@1.7.8\\Runtime\\VisualScripting.Flow\\Framework\\Events\\GameObjectEventUnit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\users\\tinti\\projet_survie_3d\\assets\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|c:\\ynovea-folder\\projet_survie_3d\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\buildsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\buildsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Ynovea-Folder\\projet_survie_3D\\assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Ynovea-Folder\\projet_survie_3D\\assets\\scripts\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Ynovea-Folder\\projet_survie_3D\\assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Ynovea-Folder\\projet_survie_3D\\assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\interactbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\collisiondetectionedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\collisiondetectionedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\pointdetectionedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\pointdetectionedge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Ynovea-Folder\\projet_survie_3D\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\attackbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\attackbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Ynovea-Folder\\projet_survie_3D\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Users\\tinti\\projet_survie_3D\\assets\\character\\scripts\\aimbehaviourbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|C:\\Ynovea-Folder\\projet_survie_3D\\assets\\character\\scripts\\aimbehaviourbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B15C34C-CE46-FB6A-13B5-8E435A5E3874}|Assembly-CSharp.csproj|solutionrelative:assets\\character\\scripts\\aimbehaviourbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\SaveSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\BuildSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\CollisionDetectionEdge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\PointDetectionEdge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\Grid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\AttackBehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tinti\\projet_survie_3D\\Assets\\EnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,35 +78,59 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\PauseMenu.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\PauseMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
+              "Title": "GameObjectEventUnit.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Library\\PackageCache\\com.unity.visualscripting@1.7.8\\Runtime\\VisualScripting.Flow\\Framework\\Events\\GameObjectEventUnit.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.visualscripting@1.7.8\\Runtime\\VisualScripting.Flow\\Framework\\Events\\GameObjectEventUnit.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Library\\PackageCache\\com.unity.visualscripting@1.7.8\\Runtime\\VisualScripting.Flow\\Framework\\Events\\GameObjectEventUnit.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.visualscripting@1.7.8\\Runtime\\VisualScripting.Flow\\Framework\\Events\\GameObjectEventUnit.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T18:48:53.536Z",
+              "WhenOpened": "2025-06-12T17:09:03.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwFIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T15:13:11.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\PauseMenu.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\PauseMenu.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T18:48:53.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\MainMenu.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\MainMenu.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\MainMenu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T14:58:53.765Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Inventory.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\Inventory.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory.cs",
               "ViewState": "AQIAAJ8AAAAAAAAAAAAAAMIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -115,24 +138,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\SaveSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\SaveSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\SaveSystem.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\SaveSystem.cs",
-              "RelativeToolTip": "Assets\\SaveSystem.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\SaveSystem.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAowEIAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T07:43:18.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T07:43:18.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Equipment.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Equipment.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\Equipment.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Equipment.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\Equipment.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\Equipment.cs",
               "RelativeToolTip": "Assets\\Scripts\\Equipment.cs",
               "ViewState": "AQIAAPUAAAAAAAAAAAAIwBMBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -140,59 +162,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "BuildSystem.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\BuildSystem.cs",
-              "RelativeDocumentMoniker": "Assets\\BuildSystem.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\BuildSystem.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\BuildSystem.cs",
-              "RelativeToolTip": "Assets\\BuildSystem.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\BuildSystem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABABAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T18:01:24.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "CollisionDetectionEdge.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\CollisionDetectionEdge.cs",
-              "RelativeDocumentMoniker": "Assets\\CollisionDetectionEdge.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\CollisionDetectionEdge.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\CollisionDetectionEdge.cs",
-              "RelativeToolTip": "Assets\\CollisionDetectionEdge.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\CollisionDetectionEdge.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T17:42:19.698Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "PointDetectionEdge.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\PointDetectionEdge.cs",
-              "RelativeDocumentMoniker": "Assets\\PointDetectionEdge.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\PointDetectionEdge.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\PointDetectionEdge.cs",
-              "RelativeToolTip": "Assets\\PointDetectionEdge.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\PointDetectionEdge.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T17:41:16.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Grid.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Grid.cs",
-              "RelativeDocumentMoniker": "Assets\\Grid.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\Grid.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Grid.cs",
-              "RelativeToolTip": "Assets\\Grid.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\Grid.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T16:50:45.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 9,
               "Title": "AimBehaviourBasic.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Character\\Scripts\\AimBehaviourBasic.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Character\\Scripts\\AimBehaviourBasic.cs",
               "RelativeDocumentMoniker": "Assets\\Character\\Scripts\\AimBehaviourBasic.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Character\\Scripts\\AimBehaviourBasic.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Character\\Scripts\\AimBehaviourBasic.cs",
               "RelativeToolTip": "Assets\\Character\\Scripts\\AimBehaviourBasic.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCIAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,11 +222,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "InteractBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\InteractBehaviour.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\InteractBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InteractBehaviour.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\InteractBehaviour.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\InteractBehaviour.cs",
               "RelativeToolTip": "Assets\\Scripts\\InteractBehaviour.cs",
               "ViewState": "AQIAAGsAAAAAAAAAAAAwwIwAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -212,11 +234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\UIManager.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,35 +246,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "AttackBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\AttackBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\AttackBehaviour.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\AttackBehaviour.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\AttackBehaviour.cs",
-              "RelativeToolTip": "Assets\\AttackBehaviour.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\AttackBehaviour.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAgwEQAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T08:20:56.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\EnemyAI.cs",
-              "RelativeDocumentMoniker": "Assets\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\EnemyAI.cs",
               "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\EnemyAI.cs",
-              "RelativeToolTip": "Assets\\EnemyAI.cs",
+              "RelativeToolTip": "..\\..\\Users\\tinti\\projet_survie_3D\\Assets\\EnemyAI.cs",
               "ViewState": "AQIAAIIAAAAAAAAAAAAAAJsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T23:43:24.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "ItemData.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemData.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\ItemData.cs",
               "RelativeToolTip": "Assets\\Scripts\\ItemData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,11 +282,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "PlayerStats.cs",
-              "DocumentMoniker": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PlayerStats.cs",
+              "DocumentMoniker": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\PlayerStats.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
-              "ToolTip": "C:\\Users\\tinti\\projet_survie_3D\\Assets\\Scripts\\PlayerStats.cs",
+              "ToolTip": "C:\\Ynovea-Folder\\projet_survie_3D\\Assets\\Scripts\\PlayerStats.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
               "ViewState": "AQIAAGcAAAAAAAAAAAAcwHsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

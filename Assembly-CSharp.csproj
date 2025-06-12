@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\CollisionDetectionEdge.cs" />
     <Compile Include="Assets\Character\Scripts\BasicBehaviour.cs" />
     <Compile Include="Assets\Scripts\EquipmentLibrary.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Character\Scripts\MoveBehaviour.cs" />
     <Compile Include="Assets\Scripts\ElementRequired.cs" />
     <Compile Include="Assets\Scripts\Slot.cs" />
@@ -88,7 +89,6 @@
     <Compile Include="Assets\Character\Scripts\ThirdPersonOrbitCamBasic.cs" />
     <Compile Include="Assets\Scripts\Grid.cs" />
     <Compile Include="Assets\Scripts\UIManager.cs" />
-    <Compile Include="Assets\Scripts\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
